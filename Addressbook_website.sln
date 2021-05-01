@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Addressbook", ".", "{C62DEBED-EAAE-45FD-A9B3-F340B6B0EBC5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55183"
+		Debug.AspNetCompiler.PhysicalPath = "..\Addressbook\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55183\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55183"
+		Release.AspNetCompiler.PhysicalPath = "..\Addressbook\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55183\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55183"
+		SlnRelativePath = "..\Addressbook\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C62DEBED-EAAE-45FD-A9B3-F340B6B0EBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62DEBED-EAAE-45FD-A9B3-F340B6B0EBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCEB4A69-A3D8-40E7-89C2-05DBAA4C8197}
+	EndGlobalSection
+EndGlobal

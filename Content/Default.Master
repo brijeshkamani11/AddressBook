@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.Master.cs" Inherits="Addressbook.Content.Defult" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Address Book</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="row">
+            <div class="col-md-12 " style="text-align: center; background-color: burlywood;">
+                <h1>ADDRESS BOOK</h1>
+            </div>
+            <div class="col-md-12" style="text-align: center; background-color: burlywood;">
+                <asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/">Home</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlContact" runat="server" NavigateUrl="~/AdminPanel/Contact/ContactList.aspx">Contact</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlCountry" runat="server" NavigateUrl="~/AdminPanel/Country/CountryList.aspx">Country</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlState" runat="server" NavigateUrl="~/AdminPanel/State/StateList.aspx">State</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlCity" runat="server" NavigateUrl="~/AdminPanel/City/CityList.aspx">City</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlBloodGroup" runat="server" NavigateUrl="~/AdminPanel/BloodGroup/BloodGroupList.aspx">BloodGroup</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hlContactCategory" runat="server" NavigateUrl="~/AdminPanel/ContactCategory/ContactCategoryList.aspx">Contact Category</asp:HyperLink>&nbsp;&nbsp;
+                
+            </div>
+
+
+            <div class="col-md-12">
+                <asp:ContentPlaceHolder ID="CphPageContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center; background-color: burlywood;">
+                    190543107012&nbsp;&nbsp;|&nbsp;&nbsp;Brijesh Kamani B.
+                </div>
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>
